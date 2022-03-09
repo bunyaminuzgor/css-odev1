@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peynir Dükkanım | Css/Ödev-1</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body  {
+          background-image: url("img/village-backgrounds.jpg");
+          background-color: #cccccc;
+        }
+        </style>
+</head>
+
+<body  class="tac">
+
+    <!-- Header start -->
+
+    <header id="top">
+        <h1 class="logo">Peynir Dükkanım</h1>
+
+        <!-- Menu start -->
+        <nav>
+            <ul>
+                <li>
+                    <a class="menu-item" href="./index.html">Ana Sayfa</a>
+                </li>
+                <li>
+                    <a class="menu-item active" href="./mission.html">Ürünlerimiz</a>
+                </li>
+                <li>
+                    <a class="menu-item" href="./about-us.html">Hakkımızda</a>
+                </li>
+            </ul>
+        </nav> <!-- Menu end -->
+
+    </header> <!-- Header end -->
+
+    <main>
+        <h2 class="title">Ürünlerimiz</h2>
+
+        <ol class="products">
+            <li>
+                <img src="./img/beyaz-peynir.jpg" alt="beyaz peynir">
+                <p class="product">
+                    Tam Yağlı Beyaz Peynir
+                    <span class="price">62.50 &#8378;</span></p>
+            </li>
+            
+            <li>
+                <img src="./img/trakya-kasar.jpg" alt="trakya-kasar">
+                <p class="product">
+                    Trakya Kaşar Peyniri
+                    <span class="price">85.75 &#8378;</span>
+                </p>
+            </li>
+            
+            <li>
+                <img src="./img/erzincan-tulum.jpg" alt="erzincan-tulum">
+                <p class="product">
+                    Erzincan Tulum Peyniri
+                    <span class="price">99.90 &#8378;</span>
+                </p>
+            </li>
+
+            <li>
+                <img src="./img/kuflu-peynir.jpg" alt="kuflu-peynir">
+                <p class="product">
+                    Yöresel Küflü Peynir
+                    <span class="price">85.90 &#8378;</span>
+                </p>
+            </li>
+        </ol>
+    </main>
+    <a href="#top" style="position: absolute;right: 15px;">Yukarı git</a>
+</body>
+
+</html>
